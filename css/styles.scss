@@ -1,0 +1,135 @@
+$color-primary: #743ca9;
+$color-secondary: #9b51e0;
+$color-pale: #CEC8FF;
+$color-mid: #C397ed;
+$color-dark: #532d76;
+$color-black-transparent: rgba(0, 0, 0, 0.5);
+
+$body-font: "Quicksand", sans-serif;
+$header-font: 'Oleo Script', cursive;
+
+body {
+    font-family: $body-font;
+    font-size:1.25em;
+    font-weight: 400;
+    line-height: 150%;
+}
+a {
+    font-weight:800;
+}
+h1, h3 {
+    font-family: $header-font;
+}
+h2 {
+    color: $color-secondary;
+    font-family: $header-font;
+}
+h4 {
+    text-transform:uppercase;
+    font-weight:700;
+}
+h5{
+    font-weight:900;
+    color:$color-secondary;
+}
+h6 {
+    font-weight: 700;
+    font-size: 1em;
+}
+
+header h2 {
+    color: $color-pale;
+}
+
+footer {
+    background-color: $color-secondary;
+    padding: 20px 0;
+}
+footer {
+    h5{
+        color:$color-pale;
+    }
+    h2{
+    color:#fff;
+    }
+    p {
+    color:$color-pale;
+    }
+    a {
+    font-size:medium;
+    color: $color-pale;
+    }
+    a:hover {
+    color:#fff;
+    }
+    i {
+    color:#fff;
+    font-size:medium;
+    }
+}
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-image: linear-gradient(to left, $color-secondary, $color-primary, $color-dark
+    );
+    color: white;
+}
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+.navbar {
+    background-color: $color-mid;
+
+}
+.footer-navbar, .site-footer{
+    background-color: $color-dark;
+
+}
+.footer-section {
+    padding-top: 100px;
+}
+
+.tab-content {
+    border: 1px solid $color-pale;
+    border-top: none;
+    padding:10px;
+}
+
+.imgGrid {
+  float: left;
+  width: 100%;
+  padding: 5px;
+}
+
+
+#banner-image {
+    background-color: $color-dark;
+    position:relative;
+    width: 100%;
+    height: 100%;
+    opacity: .9;
+    -moz-opacity: 10%;
+    -webkit-opacity: 50%;
+    z-index: 2;
+}
+.content-container {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.section-header-text {
+    color:$color-dark;
+}
+.display-2 {
+    color: $color-primary !important;
+    line-height: .9;
+}
+.jumbotron-btn {
+    background-color:$color-pale;
+    color:$color-primary;
+}
+#couponModal .modal-header {
+    background-color:$color-primary;
+    color:#fff;
+    }
