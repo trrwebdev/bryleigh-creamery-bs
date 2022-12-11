@@ -72,22 +72,11 @@ footer p {
 }
 
 .tab-content {
-    border: 1px solid #ddd;
+    border: 1px solid ##CEC8FF;
     border-top: none;
     padding:10px;
 }
-.carousel-caption {
-    background-color:rgba(0,0,0,0.5)
-}
-.carousel {
-    border:solid#5637dd
-}
-#carouselButton {
-    position:absolute;
-    right: 0;
-    bottom: 0;
-    z-index: 100;
-}
+
 .imgGrid {
   float: left;
   width: 100%;
@@ -132,5 +121,9 @@ footer i {
 
 .jumbotron-btn {
     background-color:#CEC8FF;
-    color:#743ca9;
+    color:#743ba9;
 }
+#couponModal .modal-header {
+    background-color:#743ba9;
+    color:#fff
+    }
